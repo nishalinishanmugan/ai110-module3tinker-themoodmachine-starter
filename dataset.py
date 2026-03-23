@@ -23,6 +23,13 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "hopeful",
+    "proud",
+    "okay",
+    "fine",
+    "sick",
+    "fire",
+    "wicked",
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +43,12 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "annoyed",
+    "exhausted",
+    "nervous",
+    "cold",
+    "cough",
+    "terrified",
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +63,16 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+
+    # New posts
+    "I love dancing today :)",
+    "Work makes me annoyed and exhausted",
+    "Going to the Country in the Park was fun 😂",
+    "I absolutely love getting stuck in traffic",
+    "Kinda nervous about that presentation but also excited for tomorrow",
+    "I have to file my taxes 💀",
+    "I feel cold and I have a cough, but I’m okay",
+    "I am just relaxing on Sunday and doing nothing special",
 ]
 
 # Human labels for each post above.
@@ -65,6 +88,17 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+
+    # Labels for new posts
+
+    "positive",  # "I love dancing today :)"
+    "negative",  # "Work makes me annoyed and exhausted"
+    "positive",  # "Going to the Country in the Park was fun 😂"
+    "negative",  # "I absolutely love getting stuck in traffic"
+    "mixed",     # "Kinda nervous about that presentation but also excited for tomorrow"
+    "negative",  # "I have to file my taxes 💀"
+    "mixed",     # "I feel cold and I have a cough, but I’m okay"
+    "neutral",   # "I am just relaxing on Sunday and doing nothing special"
 ]
 
 # TODO: Add 5-10 more posts and labels.

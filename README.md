@@ -65,3 +65,16 @@ During this lab you will:
 - When debugging, print tokens, scores, or intermediate choices.
 - Ask an AI assistant to help create edge case posts or unusual wording.
 - Try examples that mislead or confuse your model. Failure cases teach you the most.
+
+
+## Reflect and Discuss
+
+The summary should be 5–7 sentences covering:
+
+- The core concept students needed to understand
+- Where students are most likely to struggle
+- Where AI was helpful vs misleading
+- One way they would guide a student without giving the answer
+
+The main concept of this lab is that student need to understand how machine learning models use rules or patterns from data. I think one issues with this lab is that it doesn't mention to pip install -r requirements.txt. If the student doesn't pay attention, they can miss this. When the student gets to ml_experiments.py, they have to have sklearn installed. And they will have problems if they don't have everything in requirements.txt installed. This lab overall is pretty straight forward. The AI was helpful if you were very specific on what you wanted changes or improve on. If was misleading if you were vaugue. I would encourage the student to examine the python files and understand what is happening before asking AI. I would ask the students to do this before making adding statements to the dataset because by doing this they can create better edge cases for their model. 
+
